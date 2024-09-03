@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link
+    rel="stylesheet"
+    href="styles/10-calculator-project.css">
+  </head>
+  <body>
+    <p class="js-calculation display">0</p>
+
+    <button class="css-numbers js-numbers" onclick="
+      updateDisplay('1');
+    ">1</button>
+    <button class="css-numbers js-numbers" onclick="
+      updateDisplay('2');
+    ">2</button>
+    <button class="css-numbers js-numbers" onclick="
+      updateDisplay('3');
+    ">3</button>
+    <button class="css-operator js-operator" onclick="
+      updateDisplay('+');
+    ">+</button>
+    <br>
+    <button class="css-numbers js-numbers" onclick="
+      updateDisplay('4');
+    ">4</button>
+    <button class="css-numbers js-numbers" onclick="
+      updateDisplay('5');
+    ">5</button>
+    <button class="css-numbers js-numbers" onclick="
+      updateDisplay('6');
+    ">6</button>
+    <button class="css-operator js-operator" onclick="
+      updateDisplay('-');
+    ">-</button>
+    <br>
+    <button class="css-numbers js-numbers" onclick="
+      updateDisplay('7');
+    ">7</button>
+    <button class="css-numbers js-numbers" onclick="
+      updateDisplay('8');
+    ">8</button>
+    <button class="css-numbers js-numbers" onclick="
+      updateDisplay(9);
+    ">9</button>
+    <button class="css-operator js-operator" onclick="
+      updateDisplay('*');
+    ">*</button>
+    <br>
+    <button class="css-numbers js-numbers" onclick="
+      updateDisplay('.');
+    ">.</button>
+    <button class="css-numbers js-numbers" onclick="
+      updateDisplay('0');
+    ">0</button>
+    <button class="css-numbers js-calculate" onclick="
+      calculate();
+    ">=</button>
+    <button class="css-operator js-operator" onclick="
+      updateDisplay('/');
+    " >/</button>
+    <br>
+    <button class="css-remove js-remove" onclick="
+      clearDisplay();
+    ">Clear</button>
+
+    <script src="scripts/10-calculator-project.js"></script>
+  </body>
+</html>
